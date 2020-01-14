@@ -1,6 +1,6 @@
 {
     "name": "@kiamcoo/bootstrap-backend",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "CLI to initialize backend projects",
     "main": "src/index.js",
     "bin": {
@@ -26,24 +26,14 @@
     "homepage": "https://github.com/kiamco/bootstrap-backend#readme",
     "dependencies": {
         "arg": "^4.1.2",
-        "axios": "^0.19.1",
-        "bcryptjs": "^2.4.3",
         "chalk": "^3.0.0",
         "cors": "^2.8.5",
-        "dotenv": "^8.2.0",
         "esm": "^3.2.25",
-        "express": "^4.17.1",
         "fs": "0.0.1-security",
-        "helmet": "^3.21.2",
         "inquirer": "^7.0.3",
-        "jest": "^24.9.0",
-        "knex": "^0.20.7",
         "listr": "^0.14.3",
         "ncp": "^2.0.0",
-        "nodemon": "^2.0.2",
         "promisify": "0.0.3",
-        "slash": "^3.0.0",
-        "sqlite3": "^4.1.1",
-        "test": "file:test"
+        "slash": "^3.0.0"
     }
 }
