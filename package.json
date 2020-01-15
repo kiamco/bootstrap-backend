@@ -1,6 +1,6 @@
 {
     "name": "@kiamcoo/bootstrap-backend",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "CLI to initialize backend projects",
     "main": "src/index.js",
     "bin": {
@@ -11,7 +11,7 @@
         "access": "public"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "bootstrap-backend": "bin/bootstrap-backend.js"
     },
     "repository": {
         "type": "git",
