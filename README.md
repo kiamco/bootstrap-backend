@@ -7,7 +7,7 @@ ClI to initialize backend projects
  2.) `npm install` and `npm update`
 
 ## Template
-
+![](src/img/template.PNG)
 
 ## Notes
 this does not work on macs yet
