@@ -95,37 +95,36 @@ const cli = async(args) => {
             console.log('stdout:', stdout);
             console.log('stderr:', stderr);
         });
-    console.log(process.cwd());
 
-    console.log(chalk.blue("installing dependecies"))
-    exec(`npm install`, {
-            cwd: slash(process.cwd())
-        },
-        (err, stdout, stderr) => {
-            if (err) {
-                console.error('%s unable to install dependencies', chalk.red.bold('ERROR'));
-                process.exit(1);
-            }
-            console.log('stdout:', stdout);
-            console.log('stderr:', stderr);
-            console.log('%s Dependecies installed', chalk.green.bold('DONE'));
+    // console.log(chalk.blue("installing dependecies"))
+    // exec(`npm install`, {
+    //         cwd: slash(process.cwd())
+    //     },
+    //     (err, stdout, stderr) => {
+    //         if (err) {
+    //             console.error('%s unable to install dependencies', chalk.red.bold('ERROR'));
+    //             process.exit(1);
+    //         }
+    //         console.log('stdout:', stdout);
+    //         console.log('stderr:', stderr);
+    //         console.log('%s Dependecies installed', chalk.green.bold('DONE'));
 
-        });
+    //     });
 
-    console.log('%s Dependecies updating', chalk.green.bold('UPDATE'));
-    exec(`npm update`, {
-            cwd: slash(process.cwd())
-        },
-        (err, stdout, stderr) => {
-            if (err) {
-                console.error('%s unable to install dependencies', chalk.red.bold('ERROR'));
-                process.exit(1);
-            }
-            console.log('stdout:', stdout);
-            console.log('stderr:', stderr);
-            console.log('%s Dependecies installed', chalk.green.bold('UPDATED'));
+    // console.log('%s Dependecies updating', chalk.green.bold('UPDATE'));
+    // exec(`npm update`, {
+    //         cwd: slash(process.cwd())
+    //     },
+    //     (err, stdout, stderr) => {
+    //         if (err) {
+    //             console.error('%s unable to install dependencies', chalk.red.bold('ERROR'));
+    //             process.exit(1);
+    //         }
+    //         console.log('stdout:', stdout);
+    //         console.log('stderr:', stderr);
+    //         console.log('%s Dependecies installed', chalk.green.bold('UPDATED'));
 
-        });
+    //     });
 
 }
 
