@@ -1,6 +1,6 @@
 {
     "name": "@kiamcoo/bootstrap-backend",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "description": "CLI to initialize backend projects",
     "main": "src/index.js",
     "bin": {
@@ -17,7 +17,7 @@
         "type": "git",
         "url": "git+https://github.com/kiamco/bootstrap-backend.git"
     },
-    "keywords": [],
+    "keywords": ["backend", "boiler plate"],
     "author": "",
     "license": "ISC",
     "bugs": {
