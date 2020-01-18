@@ -34,10 +34,20 @@ export const createProject = async(options) => {
         options.template.toLowerCase()
     );
 
-    options.templateDirectory = slash(templateDir).slice(3);
+    options.templateDirectory =
+        templateDir.split('')[0] === "C" ?
+        slash(templateDir).slice(3) :
+        templateDir;
 
     try {
-        await access(slash(templateDir).slice(3), fs.constants.R_OK);
+        await console.log(templateDir);
+
+        await access(
+            templateDir.split("")[0] === "C" ?
+            slash(templateDir).slice(3) :
+            templateDir,
+            fs.constants.R_OK
+        );
     } catch (err) {
         console.error('%s Invalid template', chalk.red.bold('ERROR'));
         process.exit(1);
