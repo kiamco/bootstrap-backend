@@ -1,5 +1,5 @@
 # Bootstrap-backend
-CLI to initialize backend projects
+CLI to initialize backend projects, 
 Are you tired of setting up your server every time you start a new project? Well if you are try this out!!
 
 ## How to
