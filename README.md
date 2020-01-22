@@ -1,5 +1,6 @@
 # Bootstrap-backend
-ClI to initialize backend projects
+CLI to initialize backend projects
+Are you tired of setting up your server every time you start a new project? Well if you are try this out!!
 
 ## How to
  1.) make sure that you have the latest version of npm `npm install npm@latest -g`
